@@ -24,7 +24,7 @@ export default function SidebarMenuItem({
       className={`${style.link} ${pathName === path && style["active-link"]}`}
       href={path}
     >
-      <span className={`${style.icon}`}>{icon}</span>
+      <div className={`${style.icon}`}>{icon}</div>
       <div className="flex flex-col">
         <span className={`${style.title}`}>{title}</span>
         <span className={`${style.subTitle}`}>{subTitle}</span>
